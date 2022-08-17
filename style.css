@@ -142,10 +142,11 @@ header .nav2 .signup:hover {
 }
 .main .info  .search button:hover {
     background-color:  rgb(51, 147, 160);
-    cursor: pointer;
+ 
 
 }
 .main .info  .search button {
+    cursor: pointer;
     background-color:  rgb(97, 214, 230);
     color: white;
     border: none;
@@ -182,8 +183,30 @@ header .nav2 .signup:hover {
 .flight .content {
     margin: 5rem 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
 }
 .flight .content img {
     margin-left: 8rem;
+}
+
+
+.flight .content form{
+    text-align: left;
+    box-shadow: 1px 20px 43px -12px rgba(153,144,144,0.58);
+    padding: 2rem 1rem;
+
+}
+
+.flight .content form label {
+    display: block;
+    text-transform: capitalize;
+    padding: .4rem 0;
+}
+
+.flight .content form input {
+    outline: none;
+    padding: .4rem;
+    width: 95%;
+    border: 1px solid rgb(160, 157, 157) !important;
 }
