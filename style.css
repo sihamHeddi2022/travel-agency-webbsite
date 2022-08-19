@@ -291,3 +291,37 @@ header .nav2 .signup:hover {
   border-radius: .4rem;
 }
 
+.about .title {
+  margin-top: 10rem;
+}
+.about .title span {
+  background-color: rgb(210, 208, 238);
+  color: rgb(43, 43, 185);
+}
+.about span:nth-of-type(5) {
+  margin-left:0;
+}
+.about span:nth-of-type(6) {
+  margin-left:  2rem;
+}
+
+
+.about .content {
+  margin: 4rem 6rem;
+  display: grid;
+  grid-template-columns: repeat(2,1FR);
+}
+
+
+
+.about .content iframe {
+  width: 30rem;
+  height: 28rem;
+}
+
+
+
+
+
+
+

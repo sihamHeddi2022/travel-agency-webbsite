@@ -1,3 +1,4 @@
+
 $('.hotels').slick({
     infinite: true, 
     centerMode: true,
