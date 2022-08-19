@@ -40,6 +40,7 @@ header nav .navbar a:hover {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100vw;
   z-index: -2;
   height: 95vh;
   overflow-y: hidden;
@@ -170,23 +171,35 @@ header .nav2 .signup:hover {
 
 .flight {
   margin-top: 36rem;
-  text-align: center;
 }
-.flight h2 {
+.title {
+  text-align: center;
+
+}
+.title span{
+ 
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.flight h2 span:nth-of-type(5) {
+.h {
+  margin-top: 12rem;
+}
+.title span:nth-of-type(5) {
   margin-left: 2rem;
 }
-.flight h2 span {
+.title span{
   color: rgb(29, 178, 189);
   background-color: rgb(171, 230, 227);
   padding: 0.2rem 0.8rem;
   border-radius: 0.7rem;
 }
+.h .title span{
+  color: rgb(231, 157, 46) !important;
+  background-color: rgb(238, 215, 184);
 
+
+}
 .flight .content {
   margin: 5rem 3rem;
   display: grid;
@@ -219,25 +232,30 @@ header .nav2 .signup:hover {
 .hotels {
   margin: 3rem 4rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-height: 87vh;
   overflow: hidden;
 }
 
+.hotels .hotel {
+  margin: 2rem;
+  box-shadow: 1px 20px 43px -12px rgba(153, 144, 144, 0.58);
+  padding: 1rem;
 
+}
 
 .hotels .hotel i.bi-heart-fill{
   font-size: 1.5rem;
   color: rgb(209, 78, 100);
-  position: absolute;
-  left: 5rem;
+  position: relative;
+  top: -11rem;
+  left: .6rem;
   z-index: 10;
 }
 
 .hotels .hotel img {
   width: 100%;
-  height: 40%;
+  height: 30%;
   z-index: -10;
 }
 
