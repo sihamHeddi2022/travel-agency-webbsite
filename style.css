@@ -19,7 +19,7 @@ header nav {
   color: white;
 }
 
-header nav .logo span {
+header nav .logo span , .footer .f span{
   color: rgb(98, 156, 179);
 }
 
@@ -320,7 +320,124 @@ header .nav2 .signup:hover {
 }
 
 
+.about .content .info {
+  text-align: justify;
+  margin-top: 5rem;
+}
 
+
+.footer .subscribe {
+  display: flex;
+  background-color: rgb(23, 133, 133);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+ 
+
+}
+
+.footer .subscribe h2 {
+ 
+  text-transform: uppercase;
+  font-weight: 200 !important;
+}
+.footer .subscribe h2 span {
+  margin-bottom: 0;
+  padding: 0;
+}
+.footer .subscribe h2 span:nth-of-type(2){
+  display: block;
+  font-weight: 500;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.footer .subscribe input {
+  background:transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+
+  padding: .5rem;
+  width: 20rem;
+  margin-right: .9rem;
+
+}
+
+.footer .subscribe input::placeholder {
+  color: rgb(228, 228, 228);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+
+.footer .subscribe button {
+  
+  background: white;
+  color: rgb(11, 97, 97);
+  border: none;
+  outline: none;
+  padding: .5rem;
+  border-radius: .5rem;
+  width: 6rem;
+}
+.footer .ft{
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  color: white;
+} 
+.footer  img{
+  position: relative;
+
+  top: -22rem;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  z-index: -14;
+
+}
+
+.footer .f {
+  width: 100vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 1rem;
+  background: rgba(15, 51, 58, 0.911) !important;
+z-index: 10;
+
+}
+
+.footer .f .links {
+   display: flex;
+   flex-direction: column;
+ 
+   align-items: center;
+}
+
+.footer .f .links a {
+  color: white;
+  text-decoration: none !important;
+
+}
+
+
+
+
+.networks {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.networks i {
+  font-size: 1.5rem;
+
+}
 
 
 
